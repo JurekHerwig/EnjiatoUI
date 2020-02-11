@@ -13,20 +13,34 @@ public class EnjiatoAlertHandler {
     public init() { }
 
     public func show(_ error: Error) {
-    //        let error = error as? FuelcastError ?? FuelcastError.fallback
+        let host = UIHostingController(rootView: ErrorAlertView(text: error.localizedDescription))
 
-        let host = UIHostingController(rootView: ErrorAlertView(text: "Text"))
         var config = SwiftMessages.Config()
-        config.duration = SwiftMessages.Duration.automatic
+        config.duration = SwiftMessages.Duration.seconds(seconds: 5)
+        config.preferredStatusBarStyle = .lightContent
+
+        let view = MessageView()
+        view.layoutMarginAdditions.top = 0
+        host.view.frame = view.bounds
+        host.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(host.view)
+
         SwiftMessages.show(config: config, view: host.view)
     }
 
     public func show(_ text: String) {
-    //        let error = error as? FuelcastError ?? FuelcastError.fallback
-
         let host = UIHostingController(rootView: HintAlertView(text: text))
+
         var config = SwiftMessages.Config()
-        config.duration = SwiftMessages.Duration.automatic
+        config.duration = SwiftMessages.Duration.seconds(seconds: 5)
+        config.preferredStatusBarStyle = .lightContent
+
+        let view = MessageView()
+        view.layoutMarginAdditions.top = 0
+        host.view.frame = view.bounds
+        host.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(host.view)
+
         SwiftMessages.show(config: config, view: host.view)
     }
 

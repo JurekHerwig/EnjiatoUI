@@ -29,7 +29,7 @@ struct EnjiatoButtonView: View {
         HStack {
             Spacer()
             if isLoading.wrappedValue {
-                LottieView(filename: Asset.loadingWhite.name)
+                LottieView(filename: "loading-white")
             } else {
                 Text(title)
                     .foregroundColor(Color.white)
@@ -38,7 +38,7 @@ struct EnjiatoButtonView: View {
             Spacer()
         }.padding()
             .frame(height: 55)
-            .background(Color(Asset.primary.color))
+            .background(Color(UIColor(named: "Primary")!))
             .cornerRadius(8)
     }
 
@@ -46,11 +46,11 @@ struct EnjiatoButtonView: View {
         HStack {
             Spacer()
             if isLoading.wrappedValue {
-                LottieView(filename: Asset.loadingPrimary.name)
+                LottieView(filename: "loading-black")
             } else {
                 Text(title)
                     .font(.system(size: 16, weight: .bold))
-                    .foregroundColor(Color(Asset.primary.color))
+                    .foregroundColor(Color.black)
             }
             Spacer()
         }.padding()
@@ -69,7 +69,7 @@ struct EnjiatoButtonView: View {
                 Text(title)
                     .font(.system(size: 16, weight: .bold))
                     .hidden()
-                    .overlay(LottieView(filename: Asset.loadingPrimary.name))
+                    .overlay(LottieView(filename: "loading-black"))
             } else {
                 Text(title)
                     .font(.system(size: 16, weight: .bold))

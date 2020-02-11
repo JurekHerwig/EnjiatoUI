@@ -12,10 +12,19 @@ struct ErrorAlertView: View {
     var text: String
 
     var body: some View {
-        HStack {
-            Image(systemName: "exclamationmark.triangle")
-            Text(text)
-        }.background(Color(UIColor.systemRed))
+        GeometryReader { geometry in
+            VStack {
+                Spacer().frame(height: geometry.safeAreaInsets.top)
+                HStack(spacing: 16) {
+                    Image(systemName: "exclamationmark.triangle")
+                        .foregroundColor(Color.white)
+                    Text(self.text)
+                        .foregroundColor(Color.white)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Spacer()
+                }.padding()
+            }.background(Color(UIColor.systemRed))
+        }
     }
 }
 

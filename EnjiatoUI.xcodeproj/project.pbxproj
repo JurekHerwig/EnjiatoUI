@@ -10,12 +10,12 @@
 		070D64CCE19928EB43CCC601 /* libPods-EnjiatoUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757BBFA531A67AA6E26DA741 /* libPods-EnjiatoUI.a */; };
 		6D0D4B5F23EA9C7900DAF9EF /* EnjiatoUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D4B5D23EA9C7900DAF9EF /* EnjiatoUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D0D4B6C23EA9F4800DAF9EF /* EnjiatoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D4B6B23EA9F4800DAF9EF /* EnjiatoButton.swift */; };
-		6D0D4B7223EAA2D000DAF9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0D4B7123EAA2D000DAF9EF /* Assets.xcassets */; };
 		6D0D4B7523EAA46900DAF9EF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D4B7423EAA46900DAF9EF /* LottieView.swift */; };
 		6D5500E223F2BE61004B5078 /* ErrorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5500E123F2BE61004B5078 /* ErrorAlertView.swift */; };
 		6D5500E523F2C167004B5078 /* EnjiatoAlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5500E423F2C167004B5078 /* EnjiatoAlertHandler.swift */; };
 		6D5500E723F2C1C4004B5078 /* HintAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5500E623F2C1C4004B5078 /* HintAlertView.swift */; };
-		6D5500EC23F2CDB3004B5078 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5500EB23F2CDB3004B5078 /* assets.swift */; };
+		6D5500F823F30116004B5078 /* loading-black.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D5500F623F30116004B5078 /* loading-black.json */; };
+		6D5500F923F30116004B5078 /* loading-white.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D5500F723F30116004B5078 /* loading-white.json */; };
 		6D7793F423EDE0E500B8D869 /* EnjiatoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7793F323EDE0E500B8D869 /* EnjiatoTextField.swift */; };
 		6D9036B523F1B744009B83F7 /* EnjiatoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9036B423F1B744009B83F7 /* EnjiatoLink.swift */; };
 		6D9036B723F2A284009B83F7 /* EnjiatoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9036B623F2A284009B83F7 /* EnjiatoButtonView.swift */; };
@@ -26,12 +26,12 @@
 		6D0D4B5D23EA9C7900DAF9EF /* EnjiatoUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnjiatoUI.h; sourceTree = "<group>"; };
 		6D0D4B5E23EA9C7900DAF9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D0D4B6B23EA9F4800DAF9EF /* EnjiatoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoButton.swift; sourceTree = "<group>"; };
-		6D0D4B7123EAA2D000DAF9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D0D4B7423EAA46900DAF9EF /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		6D5500E123F2BE61004B5078 /* ErrorAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertView.swift; sourceTree = "<group>"; };
 		6D5500E423F2C167004B5078 /* EnjiatoAlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoAlertHandler.swift; sourceTree = "<group>"; };
 		6D5500E623F2C1C4004B5078 /* HintAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintAlertView.swift; sourceTree = "<group>"; };
-		6D5500EB23F2CDB3004B5078 /* assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assets.swift; sourceTree = "<group>"; };
+		6D5500F623F30116004B5078 /* loading-black.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-black.json"; sourceTree = "<group>"; };
+		6D5500F723F30116004B5078 /* loading-white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-white.json"; sourceTree = "<group>"; };
 		6D7793F323EDE0E500B8D869 /* EnjiatoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoTextField.swift; sourceTree = "<group>"; };
 		6D9036B423F1B744009B83F7 /* EnjiatoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoLink.swift; sourceTree = "<group>"; };
 		6D9036B623F2A284009B83F7 /* EnjiatoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoButtonView.swift; sourceTree = "<group>"; };
@@ -129,18 +129,9 @@
 		6D0D4B6F23EAA2A300DAF9EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6D0D4B7023EAA2B000DAF9EF /* Assets */,
+				6D5500F123F300BA004B5078 /* Lottie */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6D0D4B7023EAA2B000DAF9EF /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				6D5500EB23F2CDB3004B5078 /* assets.swift */,
-				6D0D4B7123EAA2D000DAF9EF /* Assets.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		6D5500DA23F2ADF3004B5078 /* Lottie */ = {
@@ -159,6 +150,15 @@
 				6D5500E623F2C1C4004B5078 /* HintAlertView.swift */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		6D5500F123F300BA004B5078 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				6D5500F623F30116004B5078 /* loading-black.json */,
+				6D5500F723F30116004B5078 /* loading-white.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		6D7793F223EDE0D600B8D869 /* TextField */ = {
@@ -197,7 +197,6 @@
 			buildConfigurationList = 6D0D4B6223EA9C7900DAF9EF /* Build configuration list for PBXNativeTarget "EnjiatoUI" */;
 			buildPhases = (
 				8C58288E920A7FE2DCB32B2A /* [CP] Check Pods Manifest.lock */,
-				6D5500EA23F2CD55004B5078 /* Resources */,
 				6D0D4B5523EA9C7900DAF9EF /* Headers */,
 				6D0D4B5623EA9C7900DAF9EF /* Sources */,
 				6D0D4B5723EA9C7900DAF9EF /* Frameworks */,
@@ -252,7 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0D4B7223EAA2D000DAF9EF /* Assets.xcassets in Resources */,
+				6D5500F823F30116004B5078 /* loading-black.json in Resources */,
+				6D5500F923F30116004B5078 /* loading-white.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,24 +294,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		6D5500EA23F2CD55004B5078 /* Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Resources;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
-		};
 		8C58288E920A7FE2DCB32B2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,7 +326,6 @@
 				6D5500E723F2C1C4004B5078 /* HintAlertView.swift in Sources */,
 				6D5500E223F2BE61004B5078 /* ErrorAlertView.swift in Sources */,
 				6D9036B523F1B744009B83F7 /* EnjiatoLink.swift in Sources */,
-				6D5500EC23F2CDB3004B5078 /* assets.swift in Sources */,
 				6D7793F423EDE0E500B8D869 /* EnjiatoTextField.swift in Sources */,
 				6D9036B723F2A284009B83F7 /* EnjiatoButtonView.swift in Sources */,
 				6D0D4B7523EAA46900DAF9EF /* LottieView.swift in Sources */,
