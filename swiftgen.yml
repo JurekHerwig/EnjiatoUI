@@ -1,0 +1,6 @@
+xcassets:
+  inputs:
+    - EnjiatoUI/Resources/Assets/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: EnjiatoUI/Resources/Assets/assets.swift

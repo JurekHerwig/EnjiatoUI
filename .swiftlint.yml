@@ -1,0 +1,8 @@
+line_length:
+  warning: 120
+
+disabled_rules:
+  - identifier_name
+
+excluded:
+  - Pods
