@@ -33,7 +33,7 @@ struct EnjiatoButtonView: View {
             } else {
                 Text(title)
                     .foregroundColor(Color.white)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(EnjiatoFont.regularBold)
             }
             Spacer()
         }.padding()
@@ -49,7 +49,7 @@ struct EnjiatoButtonView: View {
                 LottieView(filename: "loading-black")
             } else {
                 Text(title)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(EnjiatoFont.regularBold)
                     .foregroundColor(Color.black)
             }
             Spacer()
@@ -67,12 +67,12 @@ struct EnjiatoButtonView: View {
         Group {
             if isLoading.wrappedValue {
                 Text(title)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(EnjiatoFont.regularBold)
                     .hidden()
                     .overlay(LottieView(filename: "loading-black"))
             } else {
                 Text(title)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(EnjiatoFont.regularBold)
             }
         }
     }

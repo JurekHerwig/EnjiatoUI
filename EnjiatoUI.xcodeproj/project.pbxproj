@@ -16,6 +16,8 @@
 		6D5500E723F2C1C4004B5078 /* HintAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5500E623F2C1C4004B5078 /* HintAlertView.swift */; };
 		6D5500F823F30116004B5078 /* loading-black.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D5500F623F30116004B5078 /* loading-black.json */; };
 		6D5500F923F30116004B5078 /* loading-white.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D5500F723F30116004B5078 /* loading-white.json */; };
+		6D55010E23F460D2004B5078 /* EnjiatoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55010D23F460D2004B5078 /* EnjiatoRow.swift */; };
+		6D55011123F46935004B5078 /* EnjiatoFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55011023F46935004B5078 /* EnjiatoFonts.swift */; };
 		6D7793F423EDE0E500B8D869 /* EnjiatoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7793F323EDE0E500B8D869 /* EnjiatoTextField.swift */; };
 		6D9036B523F1B744009B83F7 /* EnjiatoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9036B423F1B744009B83F7 /* EnjiatoLink.swift */; };
 		6D9036B723F2A284009B83F7 /* EnjiatoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9036B623F2A284009B83F7 /* EnjiatoButtonView.swift */; };
@@ -32,6 +34,8 @@
 		6D5500E623F2C1C4004B5078 /* HintAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintAlertView.swift; sourceTree = "<group>"; };
 		6D5500F623F30116004B5078 /* loading-black.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-black.json"; sourceTree = "<group>"; };
 		6D5500F723F30116004B5078 /* loading-white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-white.json"; sourceTree = "<group>"; };
+		6D55010D23F460D2004B5078 /* EnjiatoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoRow.swift; sourceTree = "<group>"; };
+		6D55011023F46935004B5078 /* EnjiatoFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoFonts.swift; sourceTree = "<group>"; };
 		6D7793F323EDE0E500B8D869 /* EnjiatoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoTextField.swift; sourceTree = "<group>"; };
 		6D9036B423F1B744009B83F7 /* EnjiatoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoLink.swift; sourceTree = "<group>"; };
 		6D9036B623F2A284009B83F7 /* EnjiatoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjiatoButtonView.swift; sourceTree = "<group>"; };
@@ -95,7 +99,9 @@
 			children = (
 				6D5500E323F2C157004B5078 /* Alert */,
 				6D0D4B6823EA9F2200DAF9EF /* Button */,
+				6D55010F23F46927004B5078 /* Fonts */,
 				6D5500DA23F2ADF3004B5078 /* Lottie */,
+				6D55010C23F460BC004B5078 /* Row */,
 				6D7793F223EDE0D600B8D869 /* TextField */,
 			);
 			path = Views;
@@ -159,6 +165,22 @@
 				6D5500F723F30116004B5078 /* loading-white.json */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		6D55010C23F460BC004B5078 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				6D55010D23F460D2004B5078 /* EnjiatoRow.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		6D55010F23F46927004B5078 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D55011023F46935004B5078 /* EnjiatoFonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		6D7793F223EDE0D600B8D869 /* TextField */ = {
@@ -328,6 +350,8 @@
 				6D9036B523F1B744009B83F7 /* EnjiatoLink.swift in Sources */,
 				6D7793F423EDE0E500B8D869 /* EnjiatoTextField.swift in Sources */,
 				6D9036B723F2A284009B83F7 /* EnjiatoButtonView.swift in Sources */,
+				6D55011123F46935004B5078 /* EnjiatoFonts.swift in Sources */,
+				6D55010E23F460D2004B5078 /* EnjiatoRow.swift in Sources */,
 				6D0D4B7523EAA46900DAF9EF /* LottieView.swift in Sources */,
 				6D0D4B6C23EA9F4800DAF9EF /* EnjiatoButton.swift in Sources */,
 				6D5500E523F2C167004B5078 /* EnjiatoAlertHandler.swift in Sources */,
