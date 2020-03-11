@@ -14,7 +14,7 @@ struct ErrorAlertView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                Spacer().frame(height: geometry.safeAreaInsets.top)
+                Spacer().frame(height: geometry.safeAreaInsets.top) //TODO not working
                 HStack(spacing: 16) {
                     Image(systemName: "exclamationmark.triangle")
                         .foregroundColor(Color.white)

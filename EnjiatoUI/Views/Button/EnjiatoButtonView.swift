@@ -26,8 +26,7 @@ struct EnjiatoButtonView: View {
     }
 
     private var primary: some View {
-        HStack {
-            Spacer()
+        Group {
             if isLoading.wrappedValue {
                 LottieView(filename: "loading-white")
             } else {
@@ -35,7 +34,6 @@ struct EnjiatoButtonView: View {
                     .foregroundColor(Color.white)
                     .font(EnjiatoFont.regularBold)
             }
-            Spacer()
         }.padding()
             .frame(height: 55)
             .background(Color(UIColor(named: "Primary")!))
@@ -56,7 +54,7 @@ struct EnjiatoButtonView: View {
         }.padding()
             .frame(height: 50)
             .background(Color.clear)
-            .cornerRadius(8)
+            .cornerRadius(8) //TODO required
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
                     .stroke(Color(UIColor.systemGray5), lineWidth: 1)

@@ -17,10 +17,11 @@ struct LottieView: UIViewRepresentable {
     func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
         animationView.animation = Animation.named(filename)
         animationView.loopMode = .loop
-        animationView.play()
 
         return animationView
     }
 
-    func updateUIView(_ view: UIView, context: UIViewRepresentableContext<LottieView>) { }
+    func updateUIView(_ view: UIView, context: UIViewRepresentableContext<LottieView>) {
+        animationView.play()
+    }
 }

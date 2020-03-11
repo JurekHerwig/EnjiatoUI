@@ -15,7 +15,6 @@ public struct EnjiatoTextFieldStyle: TextFieldStyle {
             .padding(.vertical, 17)
             .background(Color(UIColor.systemGray5))
             .cornerRadius(8)
-            .padding(.horizontal)
     }
 
     public init() { }
