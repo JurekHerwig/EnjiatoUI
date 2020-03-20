@@ -10,7 +10,7 @@ import SwiftUI
 
 public struct EnjiatoFont {
     public static let title = Font.system(size: 32, weight: .bold)
-    public static let subTitle = Font.system(size: 24, weight: .bold)
+    public static let subTitle = Font.system(size: 20, weight: .bold)
     public static let regular = Font.system(size: 16, weight: .regular)
     public static let regularBold = Font.system(size: 16, weight: .bold)
     public static let small = Font.system(size: 14, weight: .regular)
