@@ -73,6 +73,7 @@ struct EnjiatoButtonView: View {
             } else {
                 Text(title)
                     .font(EnjiatoFont.regularBold)
+                    .foregroundColor(Color(UIColor(named: "Primary")!))
             }
         }
     }
